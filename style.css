@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+#container {
+  display: flex;
+}
+
+#gif {
+  width: 50%;
+  height: 100vh;
+  border-right: 1px solid #000;
+}
+
+#cashie {
+  background-color: #e6e6fa;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  background-color: #8c53fe;
+  width: 375px;
+  height: 625px;
+  border-radius: 20px;
+  margin: 0 auto;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 25px;
+}
+
+label {
+  color: #e6e6fa;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+b {
+  font-weight: 900;
+}
+
+select {
+  background-color: #fff;
+  border: 1px solid #bbbbbb;
+  border-radius: 4px;
+  height: 30px;
+  width: 100%;
+  margin-bottom: 24px;
+  margin-top: 8px;
+  outline: none;
+  appearance: none;
+  padding-left: 10px;
+  color: #808080;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+input {
+  background-color: #fff;
+  border: 1px solid #bbbbbb;
+  border-radius: 4px;
+  height: 30px;
+  width: 100%;
+  margin-bottom: 24px;
+  margin-top: 8px;
+  outline: none;
+  appearance: none;
+  padding-left: 10px;
+  color: #808080;
+  font-size: 15px;
+}
+
+button {
+  background: #000;
+  color: #fff;
+  font-size: 20px;
+  border-radius: 5px;
+  width: 100%;
+  border: none;
+  height: 40px;
+  cursor: pointer;
+  font-weight: 900;
+}
+
+button:hover {
+  opacity: 0.9;
+  background: #772ed4;
+  border: 2px solid #000;
+  transition: 0.2s all;
+}
+
+button:active {
+  opacity: 0.6;
+}
+
+section {
+  border: 2px solid #000;
+  border-radius: 15px;
+  margin-top: 15px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.arrow-img {
+  width: 20px;
+  margin: 15px 0;
+}
+
+.currency-box {
+  gap: 4px;
+}
+
+.currency {
+  color: #e6e6fa;
+  font-weight: 400;
+  opacity: 0.6;
+  font-size: 16px;
+}
+
+.currency-value,
+.currency-to-value {
+  color: #e6e6fa;
+  font-weight: 900;
+  font-size: 20px;
+}
